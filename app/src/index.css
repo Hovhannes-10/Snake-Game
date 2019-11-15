@@ -1,0 +1,64 @@
+.app {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  max-height: inherit;
+
+}
+.game-area {
+  position: relative;
+  margin: 50px auto;
+  height: 400px;
+  width: 400px;
+  border: 3px solid green;
+}
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: indigo;
+  border: 1px solid #ffffff;
+  z-index: 2;
+}
+.snake-victim {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: rgba(255, 0, 0, 0.582);
+  border: 1px solid #ffffff;
+  z-index: 1;
+}
+.game-result {
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(57, 40, 207, 0.993)
+}
+.game-result > button {
+  margin-top: 15px;
+  border: none;
+  width: 15%;
+  background-color: lawngreen;
+  font-size: 15px;
+  padding: 15px;
+}
+.game-result > h1{
+  font-size:60px;
+}
+.start{
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4%;
+  border:none;
+  padding: 15px;
+  color: aqua;
+}
+.score { 
+  text-align: center;
+  background-color: greenyellow;
+  font-size: 20px;
+  padding: 15px;
+}
+body {
+  background-color:rgb(241, 228, 206);
+}
